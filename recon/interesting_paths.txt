@@ -1,0 +1,80 @@
+---- /config ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:19:56 GMT
+Server: Apache
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+
+---- /config.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:19:57 GMT
+Server: Apache
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+
+---- /.htaccess ----
+HTTP/1.1 403 Forbidden
+Date: Tue, 16 Sep 2025 18:19:57 GMT
+Server: Apache
+Content-Length: 199
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>403 Forbidden</title>
+</head><body>
+<h1>Forbidden</h1>
+<p>You don't have permission to access this resource.</p>
+</body></html>
+
+
+---- /console ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:19:59 GMT
+Server: Apache
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+
+---- /admin ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:19:59 GMT
+Server: Apache
+Content-Length: 196
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>404 Not Found</title>
+</head><body>
+<h1>Not Found</h1>
+<p>The requested URL was not found on this server.</p>
+</body></html>
+
+

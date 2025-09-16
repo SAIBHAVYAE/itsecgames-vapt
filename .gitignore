@@ -1,0 +1,15 @@
+*.png
+*.pcap
+*.zip
+*.tar
+*.gz
+*.iso
+*.exe
+*.dll
+*.class
+*.o
+*.so
+*.db
+*.sqlite
+*.log
+*.tmp

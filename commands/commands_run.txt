@@ -1,0 +1,24 @@
+2025-09-16T17:43:13+00:00 COPIED /home/kali/vapt/itsecgames.com -> /media/ITSecGames/itsecgames.com
+2025-09-16T17:46:06+00:00 amass enum -passive -d itsecgames.com -o recon/subdomains_amass.txt
+2025-09-16T17:50:24+00:00 crt.sh query -> recon/subdomains_crtsh.txt
+2025-09-16T17:51:46+00:00 dig NS + AXFR attempts
+2025-09-16T17:55:40+00:00 subfinder -d itsecgames.com -silent -o recon/subdomains_subfinder.txt
+2025-09-16T17:56:35+00:00 httpx -l recon/subdomains_subfinder.txt -status-code -title -server -ports 80,443,8080,8443
+2025-09-16T17:57:55+00:00 curl header+title probe -> recon/live_http_probe.txt
+2025-09-16T18:00:15+00:00 nmap -sC -sV -T4 -oA nmap/itsecgames_initial itsecgames.com
+2025-09-16T18:18:52+00:00 gobuster dir -u http://itsecgames.com -w /usr/share/wordlists/dirb/common.txt -x php,html,txt,bak -t 40
+2025-09-16T18:20:00+00:00 curl fetch interesting paths -> recon/interesting_paths.txt
+2025-09-16T18:40:43+00:00 nikto -h http://itsecgames.com -output reports/itsecgames_nikto.txt
+2025-09-16T18:40:46+00:00 openssl s_client -connect itsecgames.com:443 -servername itsecgames.com -> tls/itsecgames_openssl.txt
+2025-09-16T18:42:04+00:00 curl fetch suspicious paths -> recon/suspicious_paths.txt
+2025-09-16T18:42:54+00:00 curl fetch /challenge -> recon/challenge_page.txt ; cookies -> recon/challenge_cookies.txt
+2025-09-16T18:43:28+00:00 host header test -> recon/host_header_tests.txt
+2025-09-16T18:44:29+00:00 config variants probe -> recon/config_variants.txt
+2025-09-16T18:46:52+00:00 verified gobuster 302s -> recon/gobuster_302_verification.txt
+2025-09-16T18:49:52+00:00 verified focused gobuster 302s -> recon/gobuster_focus_302.txt
+2025-09-16T18:51:26+00:00 fetched homepage variants -> recon/index_itsecgames.html , recon/index_www_itsecgames.html
+2025-09-16T18:52:20+00:00 fetched bugs + downloads -> recon/bugs_and_downloads.txt
+2025-09-16T18:55:24+00:00 RSYNC VM -> /media/ITSecGames/itsecgames.com (one-time sync)
+2025-09-16T19:14:40+00:00 created README.md and step1_recon_report.md
+2025-09-16T19:15:35+00:00 RSYNC VM -> /media/ITSecGames/itsecgames.com (one-time sync)
+2025-09-16T19:20:36+00:00 wrote industry-quality step1_recon_report.md

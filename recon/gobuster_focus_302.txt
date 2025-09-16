@@ -1,0 +1,539 @@
+Found 234 focused 302 paths
+===== HOST: itsecgames.com =====
+---- PATH: /DB ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:00 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /DB.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:01 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /DB.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:01 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /DB.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:02 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /DB.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:03 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /Database_Administration[36m ----
+REQUEST_FAILED /Database_Administration[36m
+
+
+---- PATH: /Database_Administration.bak[36m ----
+REQUEST_FAILED /Database_Administration.bak[36m
+
+
+---- PATH: /Database_Administration.html[36m ----
+REQUEST_FAILED /Database_Administration.html[36m
+
+
+---- PATH: /Database_Administration.php[36m ----
+REQUEST_FAILED /Database_Administration.php[36m
+
+
+---- PATH: /Database_Administration.txt[36m ----
+REQUEST_FAILED /Database_Administration.txt[36m
+
+
+---- PATH: /Login ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:03 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /Login.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:04 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /Login.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:04 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /Login.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:04 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /Login.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:05 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:05 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:06 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:06 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.local ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:07 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.local.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:07 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.local.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:07 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.local.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:08 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.local.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:08 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:09 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /config.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:18 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configs ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:18 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configs.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:19 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configs.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:19 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configs.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:19 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configs.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:20 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configuration ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:20 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configuration.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:21 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configuration.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:21 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configuration.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:22 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configuration.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:23 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configure ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:23 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configure.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:23 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configure.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:24 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configure.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:25 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /configure.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:26 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /console ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:27 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /console.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:28 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /console.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:28 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /console.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:29 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /console.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:29 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:29 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:30 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:30 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:31 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:31 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /database_administration[36m ----
+REQUEST_FAILED /database_administration[36m
+
+
+---- PATH: /database_administration.bak[36m ----
+REQUEST_FAILED /database_administration.bak[36m
+
+
+---- PATH: /database_administration.html[36m ----
+REQUEST_FAILED /database_administration.html[36m
+
+
+---- PATH: /database_administration.php[36m ----
+REQUEST_FAILED /database_administration.php[36m
+
+
+---- PATH: /database_administration.txt[36m ----
+REQUEST_FAILED /database_administration.txt[36m
+
+
+---- PATH: /databases ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:32 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /databases.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:33 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /databases.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:33 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /databases.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:33 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /databases.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:34 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:34 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:35 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:35 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:39 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:39 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db_connect ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:47 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db_connect.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:47 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db_connect.html ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:48 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db_connect.php ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:48 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /db_connect.txt ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:50 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /dba ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:50 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /dba.bak ----
+HTTP/1.1 404 Not Found
+Date: Tue, 16 Sep 2025 18:49:51 GMT
+Server: Apache
+Content-Type: text/html; charset=iso-8859-1
+
+
+
+---- PATH: /dba.html ----

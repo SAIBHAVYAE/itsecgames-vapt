@@ -1,0 +1,10 @@
+----- AXFR attempt from ns53.domaincontrol.com. -----
+;; communications error to 97.74.106.27#53: end of file
+;; communications error to 97.74.106.27#53: end of file
+;; communications error to 97.74.106.27#53: end of file
+;; Connection to 2603:5:21a2::1b#53(2603:5:21a2::1b) for itsecgames.com failed: host unreachable.
+----- AXFR attempt from ns54.domaincontrol.com. -----
+;; communications error to 173.201.74.27#53: end of file
+;; communications error to 173.201.74.27#53: end of file
+;; communications error to 173.201.74.27#53: end of file
+;; Connection to 2603:5:22a2::1b#53(2603:5:22a2::1b) for itsecgames.com failed: host unreachable.

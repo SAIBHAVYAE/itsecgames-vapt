@@ -1,0 +1,4 @@
+# Nmap 7.94 scan initiated Tue Sep 16 17:58:50 2025 as: nmap -sC -sV -T4 -oA /home/kali/vapt/itsecgames.com/nmap/itsecgames_initial itsecgames.com
+Host: 31.3.96.40 (web.mmebvba.com)	Status: Up
+Host: 31.3.96.40 (web.mmebvba.com)	Ports: 22/open/tcp//ssh//OpenSSH 6.7p1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
+# Nmap done at Tue Sep 16 18:00:15 2025 -- 1 IP address (1 host up) scanned in 84.45 seconds

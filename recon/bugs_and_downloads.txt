@@ -1,0 +1,347 @@
+---- HEAD bugs.htm ----
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 18:52:16 GMT
+Server: Apache
+Last-Modified: Wed, 09 Feb 2022 13:17:25 GMT
+ETag: "f32-5d795a791c340"
+Accept-Ranges: bytes
+Content-Length: 3890
+Vary: Accept-Encoding
+Content-Type: text/html
+
+
+---- BODY bugs.htm (first 200 lines) ----
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Architects+Daughter">
+<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+
+<!--<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>-->
+<script src="js/html5.js"></script>
+
+<title>bWAPP, a buggy web application!</title>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>bWAPP</h1>
+
+<h2>an extremely buggy web app !</h2>
+
+</header>    
+
+<div id="menu">
+
+    <table>
+
+        <tr>
+
+            <td><a href="index.htm">Home</a></td>
+            <td><font color="#ffb717">Bugs</font></td>
+            <td><a href="download.htm">Download</a></td>
+            <td><a href="training.htm">Talks & Training</a></td>
+            <td><a href="http://itsecgames.blogspot.com" target="_blank">Blog</a></td>
+
+        </tr>
+
+    </table>
+
+</div>
+
+<div id="main">
+
+    <h1>Bugs</h1>
+
+    <p>What makes bWAPP, our extremely buggy web application, so unique? Well, it has over <a href="./downloads/vulnerabilities.txt" target="blank">100 web bugs</a>!<br />
+    bWAPP covers all vulnerabilities from the OWASP Top 10 project, including:
+
+    <ul>
+
+        <li>SQL, HTML, iFrame, SSI, OS Command, PHP, XML, XPath, LDAP, Host Header and SMTP injections</li>
+        <li>Cross-Site Scripting (XSS), Cross-Site Tracing (XST) and Cross-Site Request Forgery (CSRF)</li>
+        <li>AJAX and Web Services issues (jQuery/JSON/XML/SOAP/WSDL)</li>
+        <li>Authentication, authorization and session issues, file upload flaws and backdoor files</li>
+        <li>Arbitrary file access, directory traversals, local and remote file inclusions (LFI/RFI)</li>
+        <li>Configuration issues: Man-in-the-Middle, cross-domain policy files, information disclosures,...</li>
+        <li>HTTP parameter pollution, HTTP response splitting and HTTP verb tampering</li>
+        <li>Insecure DistCC, FTP, NTP, Samba, SNMP, VNC and WebDAV configurations</li>
+        <li>HTML5 ClickJacking, Cross-Origin Resource Sharing (CORS) and web storage issues</li>
+        <li>XML External Entity attacks (XXE) and Server Side Request Forgery (SSRF)</li>
+  		<li>Heartbleed and Shellshock vulnerability (OpenSSL), Denial-of-Service (DoS) attacks</li>
+		<li>Parameter tampering, cookie and password reset poisoning</li>
+
+    </ul>
+
+    </p>
+
+</div>
+
+<div id="sponsor">
+
+    <table>
+
+        <tr>
+			<td align="center"><a href="https://www.mmesec.com" target="_blank"><img src="./images/mme.png"></a>&nbsp;</td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td align="center"><a href="https://www.owasp.org" target="_blank"><img src="./images/owasp.png"></a></td>
+
+        </tr>
+		
+    </table>
+
+</div>
+
+<div id="side">
+
+    <a href="https://twitter.com/MME_IT" target="blank_" class="button"><img src="./images/twitter.png"></a>
+    <a href="https://be.linkedin.com/in/malikmesellem" target="blank_" class="button"><img src="./images/linkedin.png"></a>
+    <a href="https://www.facebook.com/mmebv/" target="blank_" class="button"><img src="./images/facebook.png"></a>
+    <a href="https://itsecgames.blogspot.com" target="blank_" class="button"><img src="./images/blogger.png"></a>
+
+</div>
+
+<div id="disclaimer">
+
+    <p>bWAPP is licensed under <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank"><img style="vertical-align:middle" src="./images/cc.png"></a> &copy; 2022 MME BV / Follow <a href="https://twitter.com/MME_IT" target="_blank">@MME_IT</a> on Twitter and ask for our cheat sheet, containing all solutions! / Need an exclusive <a href="https://www.mmesec.com/training" target="blank_">training</a>?</p>
+
+</div>
+
+<div id="bee">
+
+    <img src="./images/bee_1.png">
+
+</div>
+
+</body>
+
+</html>
+---- HEAD downloads/vulnerabilities.txt ----
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 18:52:18 GMT
+Server: Apache
+Last-Modified: Mon, 18 Oct 2021 08:14:41 GMT
+ETag: "174d-5ce9c23005e40"
+Accept-Ranges: bytes
+Content-Length: 5965
+Vary: Accept-Encoding
+Content-Type: text/plain
+
+
+---- BODY downloads/vulnerabilities.txt (first 300 lines) ----
+
+---------------------------------------------
+bWAPP & bee-box - Overview of vulnerabilities
+---------------------------------------------
+
+Author				: Malik Mesellem, @MME_IT
+Date				: 2/11/2014
+bWAPP version			: bWAPP v2.2
+bee-box version			: bee-box v1.6
+
+--------------
+A1 - Injection
+--------------
+HTML Injection - Reflected (GET)
+HTML Injection - Reflected (POST)
+HTML Injection - Reflected (Current URL)
+HTML Injection - Stored (Blog)
+iFrame Injection
+LDAP Injection (Search)
+Mail Header Injection (SMTP)
+OS Command Injection
+OS Command Injection - Blind
+PHP Code Injection
+Server-Side Includes (SSI) Injection
+SQL Injection (GET/Search)
+SQL Injection (GET/Select)
+SQL Injection (POST/Search)
+SQL Injection (POST/Select)
+SQL Injection (AJAX/JSON/jQuery)
+SQL Injection (CAPTCHA)
+SQL Injection (Login Form/Hero)
+SQL Injection (Login Form/User)
+SQL Injection (SQLite)
+SQL Injection (Drupal)
+SQL Injection - Stored (Blog)
+SQL Injection - Stored (SQLite)
+SQL Injection - Stored (User-Agent)
+SQL Injection - Stored (XML)
+SQL Injection - Blind - Boolean-Based
+SQL Injection - Blind - Time-Based
+SQL Injection - Blind (SQLite)
+SQL Injection - Blind (Web Services/SOAP)
+XML/XPath Injection (Login Form)
+XML/XPath Injection (Search)
+
+-----------------------------------------------
+A2 - Broken Authentication & Session Management
+-----------------------------------------------
+Broken Authentication - CAPTCHA Bypassing
+Broken Authentication - Forgotten Function
+Broken Authentication - Insecure Login Forms
+Broken Authentication - Logout Management
+Broken Authentication - Password Attacks
+Broken Authentication - Weak Passwords
+Session Management - Administrative Portals
+Session Management - Cookies (HTTPOnly)
+Session Management - Cookies (Secure)
+Session Management - Session ID in URL
+Session Management - Strong Sessions
+
+-------------------------------
+A3 - Cross-Site Scripting (XSS)
+-------------------------------
+Cross-Site Scripting - Reflected (GET)
+Cross-Site Scripting - Reflected (POST)
+Cross-Site Scripting - Reflected (JSON)
+Cross-Site Scripting - Reflected (AJAX/JSON)
+Cross-Site Scripting - Reflected (AJAX/XML)
+Cross-Site Scripting - Reflected (Back Button)
+Cross-Site Scripting - Reflected (Custom Header)
+Cross-Site Scripting - Reflected (Eval)
+Cross-Site Scripting - Reflected (HREF)
+Cross-Site Scripting - Reflected (Login Form)
+Cross-Site Scripting - Reflected (phpMyAdmin)
+Cross-Site Scripting - Reflected (PHP_SELF)
+Cross-Site Scripting - Reflected (Referer)
+Cross-Site Scripting - Reflected (User-Agent)
+Cross-Site Scripting - Stored (Blog)
+Cross-Site Scripting - Stored (Change Secret)
+Cross-Site Scripting - Stored (Cookies)
+Cross-Site Scripting - Stored (SQLiteManager)
+Cross-Site Scripting - Stored (User-Agent)
+
+--------------------------------------
+A4 - Insecure Direct Object References
+--------------------------------------
+Insecure DOR (Change Secret)
+Insecure DOR (Reset Secret)
+Insecure DOR (Order Tickets)
+
+------------------------------
+A5 - Security Misconfiguration
+------------------------------
+Arbitrary File Access (Samba)
+Cross-Domain Policy File (Flash)
+Cross-Origin Resource Sharing (AJAX)
+Cross-Site Tracing (XST)
+Denial-of-Service (Large Chunk Size)
+Denial-of-Service (Slow HTTP DoS)
+Denial-of-Service (SSL-Exhaustion)
+Denial-of-Service (XML Bomb)
+Insecure DistCC Configuration
+Insecure FTP Configuration
+Insecure NTP Configuration
+Insecure SNMP Configuration
+Insecure VNC Configuration
+Insecure WebDAV Configuration
+Local Privilege Escalation (sendpage)
+Local Privilege Escalation (udev)
+Man-in-the-Middle Attack (HTTP)
+Man-in-the-Middle Attack (SMTP)
+Old/Backup & Unreferenced Files
+Robots File (Disclosure)
+
+----------------------------
+A6 - Sensitive Data Exposure
+----------------------------
+Base64 Encoding (Secret)
+BEAST/CRIME/BREACH SSL Attacks
+Clear Text HTTP (Credentials)
+Heartbleed Vulnerability
+Host Header Attack (Reset Poisoning)
+HTML5 Web Storage (Secret)
+POODLE Vulnerability
+SSL 2.0 Deprecated Protocol
+Text Files (Accounts)
+
+--------------------------------------------
+A7 - Missing Functional Level Access Control
+--------------------------------------------
+Directory Traversal - Directories
+Directory Traversal - Files
+Host Header Attack (Cache Poisoning)
+Host Header Attack (Reset Poisoning)
+Local File Inclusion (SQLiteManager)
+Remote & Local File Inclusion (RFI/LFI)
+Restrict Device Access
+Restrict Folder Access
+Server Side Request Forgery (SSRF)
+XML External Entity Attacks (XXE)
+
+--------------------------------------
+A8 - Cross-Site Request Forgery (CSRF)
+--------------------------------------
+Cross-Site Request Forgery (Change Password)
+Cross-Site Request Forgery (Change Secret)
+Cross-Site Request Forgery (Transfer Amount)
+
+--------------------------------------
+A9 - Using Known Vulnerable Components
+--------------------------------------
+Buffer Overflow (Local)
+Buffer Overflow (Remote)
+Drupal SQL Injection (Drupageddon)
+Heartbleed Vulnerability
+PHP CGI Remote Code Execution
+PHP Eval Function
+phpMyAdmin BBCode Tag XSS
+Shellshock Vulnerability
+SQLiteManager Local File Inclusion
+SQLiteManager PHP Code Injection
+SQLiteManager XSS
+
+--------------------------------------
+A10 - Unvalidated Redirects & Forwards
+--------------------------------------
+Unvalidated Redirects & Forwards (1)
+Unvalidated Redirects & Forwards (2)
+
+----------
+Other bugs
+----------
+ClickJacking (Movie Tickets)
+Client-Side Validation (Password)
+HTTP Parameter Pollution
+HTTP Response Splitting
+HTTP Verb Tampering
+Information Disclosure - Favicon
+Information Disclosure - Headers
+Information Disclosure - PHP version
+Information Disclosure - Robots File
+Insecure iFrame (Login Form)
+Unrestricted File Upload
+
+------
+Extras
+------
+A.I.M. - No-authentication Mode
+Client Access Policy File
+Cross-Domain Policy File
+Evil 666 Fuzzing Page
+Hidden Backdoor File
+Manual Intervention Required!
+Unprotected Admin Portal
+We Steal Secrets... (html)
+We Steal Secrets... (plain)
+WSDL File (Web Services/SOAP)
+
+---- HEAD downloads/bWAPP_intro.pdf ----
+HTTP/1.1 200 OK
+Date: Tue, 16 Sep 2025 18:52:19 GMT
+Server: Apache
+Last-Modified: Thu, 01 Jan 1970 09:13:08 GMT
+ETag: "4c727a-7ba28b100"
+Accept-Ranges: bytes
+Content-Length: 5010042
+Content-Type: application/pdf
+
