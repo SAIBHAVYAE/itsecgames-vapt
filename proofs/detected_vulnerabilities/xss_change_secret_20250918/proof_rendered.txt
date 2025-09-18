@@ -1,0 +1,2 @@
+/tmp/secret.php.html:1:Your secret: <script>alert('changeSecretXSS')</script>
+/tmp/secret_html.php.html:55:    <p>Your secret: <b><script>alert('changeSecretXSS')</script></b></p>

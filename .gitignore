@@ -1,15 +1,7 @@
-*.png
-*.pcap
-*.zip
-*.tar
-*.gz
-*.iso
-*.exe
-*.dll
-*.class
-*.o
-*.so
+# Ignore secrets and large files
+*.sql
 *.db
-*.sqlite
-*.log
-*.tmp
+*.pem
+*.key
+**/docker_logs.txt
+**/docker_inspect.json

