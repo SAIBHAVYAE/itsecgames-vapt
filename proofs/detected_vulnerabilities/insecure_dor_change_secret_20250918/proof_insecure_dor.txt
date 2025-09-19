@@ -1,0 +1,25 @@
+Vulnerability: Insecure Direct Object Reference (Change Secret) [bWAPP bug 69]
+Date: 2025-09-18
+
+Summary:
+- Loaded the Insecure DOR (Change Secret) page as user 'bee'.
+- The form uses a hidden "login=bee" parameter which can be manipulated to change another user's secret (IDOR).
+- Proof: saved /tmp/idor_change_secret.html as page source showing the form and the hidden "login" field.
+
+Impact:
+- If attackers can modify the 'login' parameter, they may change secrets for other users (privilege escalation / account tampering).
+- Severity: Medium-High depending on business context.
+
+Reproduction (high level):
+1. Login as a normal user (bee/bug).
+2. Submit the form but change POST parameter 'login' to another username.
+3. If successful, the other user's secret changes.
+
+Remediation:
+- Use server-side authorization checks: verify the authenticated user is allowed to change the target user's secret (do not rely on client-supplied identifiers).
+- Use non-guessable identifiers (mapping IDs) and perform access checks on server.
+- Log sensitive changes and alert on unexpected changes.
+
+Evidence files (repo-relative):
+- proofs/detected_vulnerabilities/insecure_dor_change_secret_20250918/idor_change_secret.html
+- proofs/detected_vulnerabilities/insecure_dor_change_secret_20250918/proof_insecure_dor.txt

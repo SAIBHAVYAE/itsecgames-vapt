@@ -1,0 +1,23 @@
+Vulnerability: Unrestricted File Upload (Bug 148)
+Date: 2025-09-18
+
+Summary:
+- Submitted /tmp/upload_test.txt via the upload form.
+- Application responded: "The image has been uploaded here" with a link to images/upload_test.txt.
+- Attempted to retrieve that path (http://127.0.0.1:8080/images/upload_test.txt) and saved the HTTP headers and response as evidence.
+
+Impact:
+- Accepting arbitrary file types (text in this case) demonstrates lack of content-type / extension validation and improper handling.
+- Attackers could upload executable webshells (if server executes uploaded files), or abuse uploaded files for stored XSS or data exfiltration.
+
+Remediation:
+- Enforce server-side validation of file type and extension (whitelist image mime-types).
+- Store uploaded files outside the web root or rename files to non-executable names.
+- Validate images using server-side image processing libraries (avoid trusting client-supplied MIME).
+- Apply proper permissions and set SameSite/secure cookie flags where relevant.
+
+Evidence files (repo-relative):
+- proofs/detected_vulnerabilities/unrestricted_upload_20250918/unrestricted_upload_response.html
+- proofs/detected_vulnerabilities/unrestricted_upload_20250918/unrestricted_upload_headers.txt
+- proofs/detected_vulnerabilities/unrestricted_upload_20250918/unrestricted_uploaded_file.txt
+- proofs/detected_vulnerabilities/unrestricted_upload_20250918/proof_unrestricted_upload.txt

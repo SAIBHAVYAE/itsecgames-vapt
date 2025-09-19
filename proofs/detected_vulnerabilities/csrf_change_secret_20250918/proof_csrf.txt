@@ -1,0 +1,11 @@
+Vulnerability: Cross-Site Request Forgery (Change Secret)
+Path: /csrf_3.php
+Impact: Any attacker can trick a logged-in user into changing their secret without consent.
+Evidence:
+- Form has no anti-CSRF token.
+- Hidden field "login=bee" is predictable.
+- PoC stored at csrf_change_secret_poc.html demonstrates exploit.
+
+Remediation:
+- Implement CSRF tokens tied to the user session.
+- Use SameSite cookies to reduce risk of external POSTs.

@@ -1,0 +1,20 @@
+Vulnerability: Information Disclosure - Server Headers / PHP Version [bWAPP bug 144]
+Date: 2025-09-18
+
+Summary:
+- The web server responds with headers revealing server software and PHP version.
+- Captured root headers saved as 'unrestricted_root_headers.txt' and page HTML saved in info_disclosure.html.
+
+Impact:
+- Disclosing server/PHP versions aids attackers in fingerprinting and finding version-specific exploits.
+- Severity: Low-Medium (information leak that increases attack surface).
+
+Remediation:
+- Hide or minimize server version info in response headers (ServerTokens/ServerSignature off for Apache).
+- Disable X-Powered-By or set to generic via php.ini (expose minimal info).
+- Keep server and PHP up to date and monitor for CVEs.
+
+Evidence files (repo-relative):
+- proofs/detected_vulnerabilities/info_disclosure_headers_20250918/info_disclosure.html
+- proofs/detected_vulnerabilities/info_disclosure_headers_20250918/unrestricted_root_headers.txt
+- proofs/detected_vulnerabilities/info_disclosure_headers_20250918/proof_info_disclosure.txt

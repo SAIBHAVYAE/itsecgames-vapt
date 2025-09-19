@@ -1,0 +1,3 @@
+Clickjacking header check executed on 20250918_144632
+- Headers: headers_root.txt
+- If X-Frame-Options not present and CSP frame-ancestors absent, site likely clickjackable.

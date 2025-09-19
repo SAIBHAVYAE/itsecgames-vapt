@@ -1,0 +1,4 @@
+SSRF quick-check 20250918_144632
+- Saved page: ssrf_page.html
+- Attempted fetch to internal 127.0.0.1 saved to ssrf_response_local.html
+- If server responded with internal content, SSRF present.

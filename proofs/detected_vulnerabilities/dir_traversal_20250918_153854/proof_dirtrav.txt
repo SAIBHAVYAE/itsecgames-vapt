@@ -1,0 +1,21 @@
+Vulnerability: Directory traversal (file read)
+Date: 2025-09-18
+
+Summary:
+- Sent a traversal payload to the directory traversal page.
+- The server responded (saved as document_etc_passwd.html).
+- Saved HTTP response headers for evidence.
+
+Reproduction:
+1) Login as bee/bug (security level low).
+2) Select the Directory Traversal (Files) bug in the bWAPP portal (bug id 105).
+3) POST the payload "../../../../etc/passwd" to the page form parameter.
+4) Evidence files included in this folder.
+
+Remediation:
+- Properly validate and canonicalize file paths on the server.
+- Deny any user-controlled path segments that include "../".
+- Use safe APIs that map a file identifier to a canonical location.
+
+Evidence (repo relative):
+$OUTDIR

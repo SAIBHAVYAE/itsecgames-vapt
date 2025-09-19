@@ -1,0 +1,4 @@
+Reflected XSS POST check on 20250918_144632
+- Saved form page: xss_post_page.html
+- Saved response (if any): xss_post_response.html
+- If the payload appears in response unescaped, it's exploitable.

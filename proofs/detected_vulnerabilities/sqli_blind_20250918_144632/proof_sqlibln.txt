@@ -1,0 +1,3 @@
+SQLi quick-check executed on 20250918_144632
+- Page saved: sqli_get_page.html
+- If you find injectable parameter names in the saved page, run sqlmap locally (example commented in script).
