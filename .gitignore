@@ -5,3 +5,6 @@
 *.key
 **/docker_logs.txt
 **/docker_inspect.json
+~.docx
+~.xlsx
+~.pptx
